@@ -6,7 +6,7 @@ import com.badlogic.gdx.Screen;
  * Created by Luis on 26/04/2017.
  */
 public abstract class BaseScreen implements Screen {
-    private MainGame game;
+    protected MainGame game;
 
     public BaseScreen(MainGame game) {
         this.game = game;

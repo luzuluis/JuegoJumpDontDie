@@ -10,13 +10,4 @@ public class MainGame extends Game {
 		setScreen(new MainGameScreen(this));
 	}
 
-	@Override
-	public void render () {
-
-	}
-	
-	@Override
-	public void dispose () {
-
-	}
 }
